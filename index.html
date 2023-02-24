@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" type="text/css"  href="/estilos.css">
+    <link  rel="stylesheet" type="text/css"  href="/normalize.css">
+    <link rel="icon" type="image/x-icon" href="/archivos/img/iconcv.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Curriculum Vitae</title>
+</head> 
+<body>
+    <header>
+        <h1 id="titulo_ppal">Curriculum Vitae</h1>
+    </header>
+    
+    <div id="contenedor_datos_personales">
+        <fieldset id="datos_personales-cuadro"> <legend><i> Datos Personales</i></legend>
+            <div id="datostxt">
+               <b class="b-datos">Nombre: </b> Leslie Patterson <br>
+               <b class="b-datos">Fecha de Nacimiento: </b> 3 de Abril de 1959<br>
+               <b class="b-datos">E-mail: </b>leslie.patterson@example.com<br>
+               <b class="b-datos">Direccion: </b> Hickory Creek 6209, DF<br>
+               <b class="b-datos">Tel: </b>(911) 471-4477<br>
+            </div>
+            <div id="contenedor_foto">
+                <img id="foto" src="/archivos/img/perfil_leslie.jpg" alt="Foto-curriculum de Leslie Patterson">
+            </div>
+        </fieldset>
+        
+    </div>
+    <div id="contenedor_estudios">
+        <fieldset id="estudios-cuadro"> <legend> <i>Estudios</i></legend>
+            <div id="estudios-oculto">
+            <h4>
+            Secundario Completo : "Reynaldo Merin"
+            </h4>
+                <ul>
+                    <li>Titulo: Técnico electricista</li>
+                </ul>
+            <h4>Terciarios Completos: "UTN frsr"</h4>
+                <ul>
+                    <li>Titulo: Tecnicatura en Programación</li>
+                </ul>
+            <h4>Cursos</h4>
+            <ul>
+                <li><h5>Argentina programa</h5></li>
+                    <ul>
+                        <div id="argprog1">1° Etapa #SeProgramar: Aprobada 
+                            <img id="img-argprog1"src="archivos/img/cert-arg-progr1.jpg" ></div><!-- agregar certificados para usar con js  -->
+                        2° Etapa #YoProgramo: En Curso (por aprobar)
+                    </ul>
+                <li><h5>Plataforma Platzi (www.platzi.com)</h5></li>
+                    <ul>
+                    <div id="temariobot"> Básico de JavaScript
+                    <div id="temario"> Temario
+                        <h5>Introducción a JavaScript</h5>
+                        <ul>
+                            ¿Por qué JavaScript?
+                            ¿Qué es JavaScript y para qué sirve?
+                            Elementos de un Lenguaje de Programación: Variables, Funciones y Sintaxis
+                            Qué es una variable en JavaScript
+                            Qué son las funciones en JavaScript
+                            ¿Qué es una función declarativa y una expresiva?
+                            Playground: retorna el tipo
+                        </ul>
+                        <h5>Bases de JavaScript</h5>
+                        <ul>
+                            Scope
+                            Hoisting
+                            Coerción
+                            Valores: Truthy y Falsy
+                            Operadores: Asignación, Comparación y Aritméticos.
+                            Playground: compara un número secreto
+                        </ul>
+                        <h5>Condicionales</h5>
+                        <ul>
+                            Condicionales: If, Else, else if
+                            Switch
+                            Playground: tienda de tecnología
+                        </ul>
+                        <h5>Arrays</h5>
+                        <ul>
+                            ¿Qué es un array?
+                            Playground: detecta el elemento impostor de un array
+                        </ul>
+                        <h5>Loops</h5>
+                        <ul>
+                            Loops: For y For...of
+                            Loops: While
+                            Playground: rescata al estudiante
+                        </ul>
+                        <h5> Objects</h5>
+                        <ul>
+                            Objects
+                            Objects: Función constructora
+                            Playground: permiso para conducir
+                        </ul>
+                        <h5>Métodos de Arrays</h5>
+                        <ul>
+                            Métodos de recorridos de Arrays
+                            Recorriendo Arrays con .find(), .forEach() y .some()
+                            Eliminando elementos de un Array
+                            Playground: Arregla el Bug
+                        </ul> 
+                    </div>
+                    </div>
+                    </ul>
+            </ul>
+        </div>
+        </fieldset>
+    </div>
+    <div id="contenedor_experiencia">
+        <fieldset id="contenedor_experiencia-cuadro"> <legend> <i>Experiencia Laboral</i></legend>
+          <div id="experiencia-oculto">
+            <h4>Informatica S.R.L</h4>
+                <ul>
+                    <li>Programador Web Jr. - 9 meses</li>
+                    <li>Programador Web Full Stack - 7 meses</li>
+                </ul>
+          </div>
+        </fieldset>
+    </div>
+    <script src="javas.js"></script>
+</body>
+</html>

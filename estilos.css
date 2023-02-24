@@ -1,0 +1,131 @@
+body{
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding: 80px;
+    background-color: antiquewhite;
+    
+}
+
+#titulo_ppal {
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+fieldset {
+    border-radius: 20px;
+}
+
+legend{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+#contenedor_foto {
+    float: right;
+    width: 20%;
+    
+}
+#foto{
+    width: 50%;
+    float: right;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#contenedor_datos_personales{
+    float: left;
+    width: 100%;
+}
+
+#contenedor_estudios{
+    float: left;
+    width: 100%;
+}
+
+#estudios-cuadro, #contenedor_experiencia-cuadro{
+    padding: 25px;
+    line-height: 2;
+}
+#estudios-oculto{
+    display: none;
+}
+#contnedor_experiencia{
+    float: left;
+    width: 100%;
+}
+
+#datostxt {
+    float: left;
+    padding: 10px;
+    line-height: 3;
+}
+
+#temario{
+    display: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(250, 231, 205);
+    position: absolute;
+    left: 20%;
+    top: 50%;
+}
+
+#img-argprog1 {
+    display: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(250, 231, 205);
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: scale(0.7);
+}
+
+ul {
+    padding-left: 30px;
+}
+
+#experiencia-oculto{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    #datos_personales-cuadro {
+        display: flex;
+        flex-wrap: wrap-reverse;
+
+    }
+    #datostxt{
+        flex-grow: 2;
+        line-height: 2;
+
+    }
+    #contenedor_foto {
+        flex-wrap: 1;
+        flex-basis: content;
+        margin: auto;
+        display: flex;
+    }
+    #foto {
+        margin: auto;
+    }
+    .b-datos{
+        display: block;
+    }
+
+    #img-argprog1{
+        position: relative;
+        top: 0%;
+        left: 0%;
+    }
+    #temario{
+        position: relative;
+        top: 0%;
+        left: 0%;
+    }
+}
